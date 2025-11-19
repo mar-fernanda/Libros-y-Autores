@@ -1,0 +1,38 @@
+body {
+    background-color: #f3e5f5;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #6a1b9a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+li:nth-child(6n+1) { background-color: #f8bbd0; } /* rosa pastel */
+li:nth-child(6n+2) { background-color: #c8e6c9; } /* verde pastel */
+li:nth-child(6n+3) { background-color: #b3e5fc; } /* celeste pastel */
+li:nth-child(6n+4) { background-color: #ffe0b2; } /* durazno pastel */
+li:nth-child(6n+5) { background-color: #d1c4e9; } /* lavanda pastel */
+li:nth-child(6n+6) { background-color: #fff9c4; } /* amarillo pastel */
+
+a {
+    text-decoration: none;
+    color: #4a148c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
